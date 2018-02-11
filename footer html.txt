@@ -1,0 +1,14 @@
+	<div class="footer">
+	      <div class="social-container">
+	              <a href="https://www.etsy.com/uk/shop/LedabyNight" class="etsy" target="_blank">
+	  			  <img id = "etsy-image" src = "images/social/etsy@0,5x.png" alt = "Esty"/></a>
+	              <a href="http://www.instagram.com/ledabynight" class="instagram" target="_blank">
+	  			  <img id = "instagram-image" src = "images/social/instagram@0,5x.png" alt = "Instagram"/></a>
+	              <a href="http://www.facebook.com/ledabynight" class="facebook" target="_blank">
+	  			  <img id = "facebook-image" src = "images/social/facebook@0,5x.png" alt = "Facebook"/></a>
+	              <a href="http://www.twitter.com/ledabynight" class="twitter" target="_blank">
+	  			  <img id = "twitter-image" src = "images/social/twitter@0,5x.png" alt = "Twitter"/></a>
+	              <a href="http://www.pinterest.com/ledabynight" class="pinterest" target="_blank">
+	  			  <img id = "pinterest-image" src = "images/social/pinterest@0,5x.png" alt = "Pinterest"/></a>
+		</div>
+		<p>Copyright &copy; 2018 Leda by Night</p>

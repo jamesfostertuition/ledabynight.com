@@ -1,0 +1,17 @@
+.background-container{
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+#background{
+	position:absolute;
+	display:block;
+	z-index:-4;
+	width:100%;
+}
+
+	<div class="background-container">
+		<img id="background" src="background.jpg" alt="background">
+	</div>

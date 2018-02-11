@@ -1,0 +1,36 @@
+<!DOCTYPE HTML> 
+	<div class="slideshow-container">
+		<img class="slideshow" src="images/slideshow/1.jpg" style="width:100%">
+		<img class="slideshow" src="images/slideshow/2.jpg" style="width:100%">
+		<img class="slideshow" src="images/slideshow/3.jpg" style="width:100%">
+	</div>
+	
+	<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slideshow");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000);
+}
+</script>
+
+.slideshow-container {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	height:50%;
+	width:50%;
+	padding-top:1px;
+	padding-bottom:1px;
+	border:2px solid #edb39e;
+}

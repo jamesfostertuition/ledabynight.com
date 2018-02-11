@@ -1,0 +1,28 @@
+* {
+	
+}
+body {
+    background: url(background.jpg) no-repeat center fixed;
+    background-position: center 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.logo-container{
+	margin-top: 40px;
+	width: 100%;
+}
+
+#logo{
+	display: block;
+	position:relative;
+	z-index:-4;
+	width: 40%;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+}
+
