@@ -56,7 +56,9 @@ h3 {
 	pointer-events: none;
 	cursor: default;
 }
-
+.burger-check{
+	display:none;
+}
 ul {
 	list-style-type: none;
 	margin: 0;

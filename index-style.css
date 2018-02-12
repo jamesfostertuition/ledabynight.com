@@ -1,16 +1,24 @@
 * {
 	
 }
-body {
-    background: url(background.jpg) no-repeat center fixed;
-    background-position: center 0px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+.background-container{
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
 }
 
 
+.slideshow-container {
+	display:block;
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:-4;
+	
+}
 .logo-container{
 	margin-top: 40px;
 	width: 100%;
@@ -20,7 +28,7 @@ body {
 	display: block;
 	position:relative;
 	z-index:-4;
-	width: 40%;
+	width: 30%;
 	padding-top: 1px;
 	padding-bottom: 1px;
 	
